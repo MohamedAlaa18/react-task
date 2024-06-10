@@ -25,7 +25,7 @@ export default function PostForm({ groupId, onAddPost, onCancel }: PostFormProps
     return (
         <form onSubmit={handleSubmit} className="max-w-md mx-auto mt-6">
             <div className="mb-4">
-                <label htmlFor="title" className="block text-white font-bold mb-2">Title:</label>
+                <label htmlFor="title" className="block text-gray-700 font-bold mb-2">Title:</label>
                 <input
                     type="text"
                     id="title"
@@ -37,7 +37,7 @@ export default function PostForm({ groupId, onAddPost, onCancel }: PostFormProps
             </div>
 
             <div className="mb-4">
-                <label htmlFor="content" className="block text-white font-bold mb-2">Content:</label>
+                <label htmlFor="content" className="block text-gray-700 font-bold mb-2">Content:</label>
                 <textarea
                     id="content"
                     value={content}
