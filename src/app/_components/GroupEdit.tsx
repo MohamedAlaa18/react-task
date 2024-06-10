@@ -26,7 +26,7 @@ export default function GroupEdit({ group, onUpdateGroup }: GroupEditProps) {
   return (
     <form onSubmit={handleSubmit} className="max-w-md mx-auto mt-6">
       <div className="mb-4">
-        <label htmlFor="name" className="block text-gray-700 font-bold mb-2">Group Name:</label>
+        <label htmlFor="name" className="block text-white font-bold mb-2">Group Name:</label>
         <input
           type="text"
           id="name"
@@ -38,7 +38,7 @@ export default function GroupEdit({ group, onUpdateGroup }: GroupEditProps) {
       </div>
 
       <div className="mb-4">
-        <label htmlFor="description" className="block text-gray-700 font-bold mb-2">Description:</label>
+        <label htmlFor="description" className="block text-white font-bold mb-2">Description:</label>
         <textarea
           id="description"
           value={description}
